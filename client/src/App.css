@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+
+:root{
+  --color-one:#33d1cc;
+  --color-two:#ff3150;
+  
+}
+
+.bg-color {
+background-color: #f0f4f5;
+}
+
+.width-card{
+width: 18rem;
+}
+
+.nav-bg-color{
+background-color:var(--color-one);
+}
+
+.main-btn{
+background-color:var(--color-one);
+width: 10rem;
+height: 2rem;
+margin-left: 4rem;
+color:white;
+border: none;
+display: flex;
+justify-content: center;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
