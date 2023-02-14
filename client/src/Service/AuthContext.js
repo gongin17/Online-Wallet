@@ -23,7 +23,7 @@ export const AuthProvider = ({ children }) => {
 
   let loginUser = async (e) => {
     e.preventDefault();
-    let response = await fetch("http://onlinewallet-env.eba-kvnmjap9.us-east-1.elasticbeanstalk.com/signin", {
+    let response = await fetch("http://api/signin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
