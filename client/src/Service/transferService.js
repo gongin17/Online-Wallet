@@ -2,14 +2,14 @@ import axios from 'axios';
 
 
 const ACCOUNT_TRANSFER_API_URL = 
-'http://onlinewallet-env.eba-kvnmjap9.us-east-1.elasticbeanstalk.com/transfer';
+'http://api/transfer';
 
 
 const ACCOUNT_TRANSACTIONS_API_URL = 
-'http://onlinewallet-env.eba-kvnmjap9.us-east-1.elasticbeanstalk.com/transactions';
+'http://api/transactions';
 
 const ACCOUNT_TRANSACTIONS_SEVEN_DAYS_API_URL = 
-'http://onlinewallet-env.eba-kvnmjap9.us-east-1.elasticbeanstalk.com/transactions/sevendays';
+'http://api/transactions/sevendays';
 
 
 class TransferService{
