@@ -33,7 +33,7 @@ const AddAccount = () => {
       className="container my-3 border "
       style={{ width: "340px", height: "100vh", boxShadow: " 3px 3px #888888" }}
     >
-      <h3 className="text-center my-5">Banking Sys</h3>
+      <h3 className="text-center my-5">Online Wallet</h3>
 
       <h5 className="text-center mt-5 mb-3">Create New Account :</h5>
 
