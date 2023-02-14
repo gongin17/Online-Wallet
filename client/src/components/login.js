@@ -10,8 +10,8 @@ const Login = () => {
       style={{ width: "340px", height: "100vh", boxShadow: " 3px 3px #888888", }}
     >
       <form onSubmit={loginUser}>
-      <h3 className="text-center my-3">Banking Sys</h3>
-        <h5 className="text-center my-3">Welcome to our banking app :</h5>
+      <h3 className="text-center my-3">Online Wallet</h3>
+        
 
         <div className=" mb-3 mx-4">
           <input
