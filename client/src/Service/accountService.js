@@ -1,13 +1,13 @@
 import axios from 'axios';
 
 
-const ACCOUNT_LOGIN_API_URL = 'http://onlinewallet-env.eba-kvnmjap9.us-east-1.elasticbeanstalk.com/signin';
-const ACCOUNT_ADD_API_URL = 'http://onlinewallet-env.eba-kvnmjap9.us-east-1.elasticbeanstalk.com/signup';
+const ACCOUNT_LOGIN_API_URL = 'http://api/signin';
+const ACCOUNT_ADD_API_URL = 'http://api/signup';
 
-const ACCOUNT_TRANSFER_API_URL = 'http://onlinewallet-env.eba-kvnmjap9.us-east-1.elasticbeanstalk.com/transfer';
-const ACCOUNT_UPDATE_API_URL = 'http://onlinewallet-env.eba-kvnmjap9.us-east-1.elasticbeanstalk.com/upuser';
-const ACCOUNT_CUSTOMERS_API_URL = 'http://onlinewallet-env.eba-kvnmjap9.us-east-1.elasticbeanstalk.com/accountlist';
-const ACCOUNT_USER_API_URL = 'http://onlinewallet-env.eba-kvnmjap9.us-east-1.elasticbeanstalk.com/user';
+const ACCOUNT_TRANSFER_API_URL = 'http://api/transfer';
+const ACCOUNT_UPDATE_API_URL = 'http://api/upuser';
+const ACCOUNT_CUSTOMERS_API_URL = 'http://api/accountlist';
+const ACCOUNT_USER_API_URL = 'http://api/user';
 
 class AccountService{
 
