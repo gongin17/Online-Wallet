@@ -23,12 +23,11 @@ public class TransactionService {
 
 	public Transaction makeTransfer(Transaction transaction) {
 
-		// User sender = new User();
+                 
+		 User sender = getUserByUsername(transaction.getSender());
+		 User reciever =getUserByUsername(transaction.getReciever());
 
-		// sender = getUserByUsername(transaction.getSender());
-		// User reciever =getUserByUsername(transaction.getReciever());
-
-		// if(transaction.getAmount() <= sender.getBalance()) {
+		 if(transaction.getAmount() <= sender.getBalance()) {
 
 		Transaction newTransaction = new Transaction();
 
@@ -40,11 +39,9 @@ public class TransactionService {
 
 		return tr.save(newTransaction);
 
-		// }
+		 }
 
-		// else {
-		// return null;
-		// }
+		
 
 	}
 
