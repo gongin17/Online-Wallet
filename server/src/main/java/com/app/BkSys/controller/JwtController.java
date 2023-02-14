@@ -85,14 +85,7 @@ public class JwtController {
 	
 	}
 	
-	@RequestMapping(value ="/u" , method = RequestMethod.GET)
-	
-	public User findUserId(@PathVariable Long id) {
-		
-		return userDetailsService.findUserById(id);
-	
-	
-	}
+
 	
 
 	
